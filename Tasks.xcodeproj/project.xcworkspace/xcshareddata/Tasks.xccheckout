@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FDA037E6-4472-47A9-BD04-34CF1F1AEDD0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tasks</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>744147CE-D9DB-4FCC-84BD-7C375764AAAC</key>
+		<string>ssh://github.com/lordB8r/ios_Tasks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tasks.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>744147CE-D9DB-4FCC-84BD-7C375764AAAC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/lordB8r/ios_Tasks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>744147CE-D9DB-4FCC-84BD-7C375764AAAC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>744147CE-D9DB-4FCC-84BD-7C375764AAAC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tasks</string>
+		</dict>
+	</array>
+</dict>
+</plist>

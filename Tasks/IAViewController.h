@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface IAViewController : UIViewController
+@interface IAViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@property (strong, nonatomic) NSMutableArray *tasks;
+
 
 @end
