@@ -47,4 +47,28 @@
     return cell;
 }
 
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [self performSegueWithIdentifier:@"taskSegue" sender:self.tasks[indexPath.row ]];
+}
+
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    UIViewController *destination = segue.destinationViewController;
+    
+    if ([segue.identifier isEqualToString:@"taskSegue"])
+        [destination setValue:sender forKeyPath:@"task"];
+    else
+        destination = [segue.destinationViewController topViewController];
+    
+    [destination setValue:self forKeyPath:@"delegate"];
+         
+}
+
+-(void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.tableView reloadData];
+}
+
 @end

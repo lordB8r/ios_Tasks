@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		903EEB28180CF034004BCA68 /* IANewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 903EEB27180CF034004BCA68 /* IANewTaskViewController.m */; };
+		903EEB2B180CF049004BCA68 /* IATaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 903EEB2A180CF049004BCA68 /* IATaskViewController.m */; };
 		90FA7BE1180CDCC200CEF042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FA7BE0180CDCC200CEF042 /* Foundation.framework */; };
 		90FA7BE3180CDCC200CEF042 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FA7BE2180CDCC200CEF042 /* CoreGraphics.framework */; };
 		90FA7BE5180CDCC200CEF042 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FA7BE4180CDCC200CEF042 /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		903EEB26180CF034004BCA68 /* IANewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IANewTaskViewController.h; sourceTree = "<group>"; };
+		903EEB27180CF034004BCA68 /* IANewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IANewTaskViewController.m; sourceTree = "<group>"; };
+		903EEB29180CF049004BCA68 /* IATaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATaskViewController.h; sourceTree = "<group>"; };
+		903EEB2A180CF049004BCA68 /* IATaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATaskViewController.m; sourceTree = "<group>"; };
 		90FA7BDD180CDCC200CEF042 /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FA7BE0180CDCC200CEF042 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90FA7BE2180CDCC200CEF042 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +125,10 @@
 				90FA7BF6180CDCC200CEF042 /* IAViewController.m */,
 				90FA7BF8180CDCC200CEF042 /* Images.xcassets */,
 				90FA7BE7180CDCC200CEF042 /* Supporting Files */,
+				903EEB26180CF034004BCA68 /* IANewTaskViewController.h */,
+				903EEB27180CF034004BCA68 /* IANewTaskViewController.m */,
+				903EEB29180CF049004BCA68 /* IATaskViewController.h */,
+				903EEB2A180CF049004BCA68 /* IATaskViewController.m */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -252,6 +262,8 @@
 			files = (
 				90FA7BF1180CDCC200CEF042 /* IAAppDelegate.m in Sources */,
 				90FA7BED180CDCC200CEF042 /* main.m in Sources */,
+				903EEB2B180CF049004BCA68 /* IATaskViewController.m in Sources */,
+				903EEB28180CF034004BCA68 /* IANewTaskViewController.m in Sources */,
 				90FA7BF7180CDCC200CEF042 /* IAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +475,7 @@
 				90FA7C11180CDCC200CEF042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90FA7C12180CDCC200CEF042 /* Build configuration list for PBXNativeTarget "TasksTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +484,7 @@
 				90FA7C14180CDCC200CEF042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
